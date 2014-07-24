@@ -1,5 +1,7 @@
 body {
-    background-image: url('images/foodfood.png');
+    background-image: url('../images/foodfood.png');
     background-repeat: no-repeat;
     background-position: center top;
+    width: 100%;
+    background-size: 100%;
 }
