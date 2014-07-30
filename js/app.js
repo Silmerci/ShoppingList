@@ -5,7 +5,7 @@ $(document).ready(function() {
 			if (enter.keyCode == 13) {
 				postItem();
 			}
-		});
+		})
 	}
 
 	getItem();
