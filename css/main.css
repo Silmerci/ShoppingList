@@ -42,7 +42,7 @@ input  {
 	margin-left: -25px;
 	border-radius: 2px;
 }
-.add {
+#add {
 	background-color: transparent;
     border: 1px solid #67809F;
     box-shadow: inset 0 0 8px #3498db;
@@ -50,15 +50,17 @@ input  {
 	padding-top: 1px;
 	padding-bottom: 2px;
 }
-.box {
-	border-radius: 2px;
-	position: relative;
-}
 
-.boxes {
-	margin-left: -420px;
-}
 
 ul li {
 	height: 30px;
+	list-style: none outside none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	font: inherit;
+	vertical-align: baseline;
 }
